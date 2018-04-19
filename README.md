@@ -14,22 +14,30 @@ pytest version 3.5.0
 
 ## Create and activate virtual environment - (OPTIONAL BUT ADVISED)
 1. make a virtual environment (folder name - venv)
-```python3 -m venv ./venv```
+```
+python3 -m venv ./venv
+```
 
 A new folder ```venv``` should be create
 
 2. activate virtual environment
-```source venv/bin/activate```
+```
+source venv/bin/activate
+```
 note: I have not tested this on other linux distributions just OSX. 
 
 If activation is successful (venv) should be appended to new line on terminal
 
 to deactivate virtual environment run
-```deactivate```
+```
+deactivate
+```
 
 ## Install dependencies
 Run the below command
-```pip3 install -r requirements.txt```
+```
+pip3 install -r requirements.txt
+```
 
 Note: if you opt to not use of virtual environment the dependencies will be installed globally
 
@@ -38,11 +46,15 @@ Note: if you opt to not use of virtual environment the dependencies will be inst
 I have added some make tasks to ease the running of the tests and starting stopping of server easier
 
 to run the test
-```make test```
+```
+make test
+```
 
 NOTE: the test command will start the server up and run the tests
 
 to stop the server
-```make stop_server```
+```
+make stop_server
+```
 
 
