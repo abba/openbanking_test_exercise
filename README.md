@@ -6,9 +6,11 @@ would also require `pip3` but this is distributed with python version 3
 
 ### Libraries
 
-Flask version version 0.12.2
-requests version 2.18.4
-pytest version 3.5.0
+These are declared in requirements.txt
+
++ Flask version version 0.12.2
++ requests version 2.18.4
++ pytest version 3.5.0
 
 ### To Run Tests
 
@@ -34,7 +36,7 @@ pytest version 3.5.0
     ```
 
 #### Install dependencies
-*NOTE: if you opt to not use of virtual environment the dependencies will be installed globally*
+*NOTE: if you opt to not use virtual environment the dependencies will be installed globally*
 
 Run the below command
 ```
