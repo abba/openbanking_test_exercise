@@ -20,7 +20,7 @@ These are declared in requirements.txt
     python3 -m venv ./venv
     ```
 
-    A new folder ```venv``` should be create
+    A new folder ```venv``` should be created
 
 2. activate virtual environment
     ```
@@ -45,7 +45,7 @@ pip3 install -r requirements.txt
 
 
 #### Run tests
-I have added some make tasks to ease the running of the tests and starting stopping of server easier
+I have added some make tasks to ease the running of the tests and starting stopping of server
 
 to run the tests
 ```
