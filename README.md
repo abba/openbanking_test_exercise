@@ -24,37 +24,37 @@ pytest version 3.5.0
     ```
     source venv/bin/activate
     ```
-    note: I have not tested this on other linux distributions just OSX. 
+    *NOTE: I have not tested this on other linux distributions just OSX.*
 
     If activation is successful (venv) should be appended to new line on terminal
 
-to deactivate virtual environment run
+3. To deactivate virtual environment run
     ```
     deactivate
     ```
 
 #### Install dependencies
-    Note: if you opt to not use of virtual environment the dependencies will be installed globally
+*NOTE: if you opt to not use of virtual environment the dependencies will be installed globally*
 
-    Run the below command
-    ```
-    pip3 install -r requirements.txt
-    ```
+Run the below command
+```
+pip3 install -r requirements.txt
+```
 
 
 #### Run tests
-    I have added some make tasks to ease the running of the tests and starting stopping of server easier
+I have added some make tasks to ease the running of the tests and starting stopping of server easier
 
-    to run the test
-    ```
-    make test
-    ```
+to run the tests
+```
+make test
+```
 
-    NOTE: the test command will start the server up and run the tests
+*NOTE: the test command will start the server up and run the tests*
 
-To stop the server
-    ```
-    make stop_server
-    ```
+#### To stop the server
+```
+make stop_server
+```
 
 
