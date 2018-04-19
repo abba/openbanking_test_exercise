@@ -8,7 +8,7 @@ would also require `pip3` but this is distributed with python version 3
 
 These are declared in requirements.txt
 
-+ Flask version version 0.12.2
++ Flask version 0.12.2
 + requests version 2.18.4
 + pytest version 3.5.0
 
